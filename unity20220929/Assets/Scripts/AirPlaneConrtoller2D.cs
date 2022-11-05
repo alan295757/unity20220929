@@ -19,5 +19,25 @@ namespace JAY
         private Sprite pictureMiddle;
         [SerializeField]
         private Sprite pictureDown;
+
+        private void Update()
+        {
+            // 上下 WS Vertical
+            // 左右 AD Horizontal
+
+            // 上 W +1
+            // 下 D -1
+            // 沒按 0
+            float v = Input.GetAxis("Vertical");
+            // 右 D +1
+            // 左 A -1
+            // 沒按 0
+            float h = Input.GetAxis("Horizontal");
+
+            transform.Translate(
+                speedHorizontal * Time.deltaTime * h,
+                speedVertical * Time.deltaTime * v,
+                0);
+        }
     }
 }
