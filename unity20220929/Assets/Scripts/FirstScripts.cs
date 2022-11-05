@@ -1,35 +1,35 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace JAY
 {
     /// <summary>
-    /// ²Ä¤@­Óµ{¦¡
+    /// ç¬¬ä¸€å€‹ç¨‹å¼
     /// </summary>
     public class FirstScripts : MonoBehaviour
     {
-        #region µù¸Ñ°Ï°ì
-        // ÁY±Æ §Ö±¶Áä Tab
-        // ®æ¦¡¤Æ¤å¥ó Ctrl + K D
-        // ³æ¦æµù¸Ñ
+        #region è¨»è§£å€åŸŸ
+        // ç¸®æ’ å¿«æ·éµ Tab
+        // æ ¼å¼åŒ–æ–‡ä»¶ Ctrl + K D
+        // å–®è¡Œè¨»è§£
         #endregion
-            // ³ê¿ô¨Æ¥ó
+            // å–šé†’äº‹ä»¶
         private void Awake()
         {
-            print("«¢Åo");
+            print("å“ˆå›‰");
         }
 
-        // ¶}©l¨Æ¥ó
+        // é–‹å§‹äº‹ä»¶
         private void Start()
         {
-            print("<color=yellow>³o¬O¶}©l¨Æ¥ó</color>");
+            print("<color=yellow>é€™æ˜¯é–‹å§‹äº‹ä»¶</color>");
         }
 
-        // §ó·s¨Æ¥ó¡G¦b Start «á°õ¦æ °õ¦æ¦¸¼Æ¬ù 60 FPS
+        // æ›´æ–°äº‹ä»¶ï¼šåœ¨ Start å¾ŒåŸ·è¡Œ åŸ·è¡Œæ¬¡æ•¸ç´„ 60 FPS
         private void Update()
         {
-            print("<color=red>§ó·s¨Æ¥ó¡I</color>");
+            print("<color=red>æ›´æ–°äº‹ä»¶ï¼</color>");
         }
-        #region ¨Æ¥ó°Ï°ì
+        #region äº‹ä»¶å€åŸŸ
 
 
         #endregion

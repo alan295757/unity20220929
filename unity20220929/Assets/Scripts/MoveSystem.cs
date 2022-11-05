@@ -1,20 +1,20 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace JAY
 {
     /// <summary>
-    /// ²¾°Ê¨t²Î
+    /// ç§»å‹•ç³»çµ±
     /// </summary>
     public class MoveSystem : MonoBehaviour
     {
-        [SerializeField, Header("²¾°Ê³t«×"), Range(-10, 0)]
+        [SerializeField, Header("ç§»å‹•é€Ÿåº¦"), Range(-10, 0)]
         private float speed = -3.5f;
 
         private void Update()
         {
-            // transform ¦¹ª«¥óªº Transform ¤¸¥ó
-            // translate(x, y, z) ¦ì²¾
-            // Time.deltaTime ¨C´V¼Æªá¶O®É¶¡
+            // transform æ­¤ç‰©ä»¶çš„ Transform å…ƒä»¶
+            // translate(x, y, z) ä½ç§»
+            // Time.deltaTime æ¯å¹€æ•¸èŠ±è²»æ™‚é–“
             transform.Translate(speed * Time.deltaTime, 0, 0);
         }
     }
