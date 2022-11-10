@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 1146110209}
   - component: {fileID: 1146110210}
   - component: {fileID: 1146110211}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u73A9\u5BB6"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
